@@ -28,7 +28,6 @@
     display: flex;
     justify-content: space-between;
     height: 60px;
-    margin: 0 210px;
     align-items: center;
     padding-top: 4px;
 }
@@ -153,14 +152,14 @@ header nav .right-section ul li{
   padding-top: 5px;
 }
 
-.post-section .posts .post .post-header .left{
+.post-section .posts .post .post-header .left-s{
     display: flex;
     align-items: center;
     width: 80px;
     justify-content: space-between;
 }
 
-.post-section .posts .post .post-header .left img{
+.post-section .posts .post .post-header .left-s img{
     border-radius: 31px;
     
 }

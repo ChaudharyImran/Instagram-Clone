@@ -1,18 +1,47 @@
 @media screen and (max-width: 1300px) {
    .body{
     margin-left: 240px;
-   }
+    width: 0px;
 }
+
+/* header nav {
+    /* margin: 0 190px; */
+    margin: auto;
+}
+
+header nav {
+    width: 880px;
+    margin: auto;
+}
+}
+
+
 
 @media screen and (max-width: 1200px) {
     .body{
         margin-left: 200px;
     }
- }
+
+    header nav {
+        margin-left: 165px;
+
+    }
+ } */
 
  @media screen and (max-width: 1100px) {
     .body{
         margin-left: 120px;
+    }
+
+    header nav{
+        margin-left: 140px;
+    }
+ }
+
+ @media screen and (max-width: 1050px) {
+    header nav {
+        margin: 0;
+        margin-left: 75px;
     }
  }
 
@@ -26,4 +55,85 @@
     .body .right{
         display: none;
     }
+
+    .body .left{
+        margin-left: 180px;
+    }
+
+    header nav {
+        margin: 0;
+        margin: 0 35px;
+        width: auto;
+    }
+ }
+
+ @media screen and (max-width: 900px) {
+    header nav {
+        margin: 0 15px;
+    }
+
+    header nav .middle-section{
+        margin-left: 35px;
+    }
+
+    .body .left{
+        margin-left: 110px;
+    }
+ }
+
+ @media screen and (max-width:800px) {
+    .body .left{
+        margin-left: 85px;
+    }
+ }
+
+ @media screen and (max-width:750px) {
+    .body .left{
+        margin-left: 60px;
+    }
+ }
+
+ @media screen and (max-width:700px) {
+    header nav .middle-section {
+        margin-left: 20px;
+    }
+    header nav .middle-section .search{
+        width: 210px;
+    }
+
+    .body .left{
+        margin-left: 35px;
+    }
+ }
+
+
+
+ @media screen and (max-width:640px) {
+     header nav .middle-section .search {
+        display: none;
+     }
+     .body .left{
+        margin-left: auto;
+    }
+ }
+
+ @media  screen and (max-width:600px) {
+   .body .left{
+    margin-left: -16px;
+   }
+ }
+
+ @media  screen and (max-width:550px) {
+   .body{
+    margin-left: 55px;
+   }
+   .body .left{
+    margin-left: -29px;
+   }
+ }
+
+ @media screen and (max-width:500px){
+       .body .left{
+        margin-left: -38px;
+       }
  }
