@@ -378,6 +378,10 @@ header nav .right-section ul li{
     cursor: pointer;
 }
 
+.body .right .copyright{
+    margin-top: 30px;
+}
+
 .body .right .copyright span{
     color: lightgray;
     font-size: 13px;
